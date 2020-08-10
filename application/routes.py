@@ -4,3 +4,7 @@ from flask import Flask, render_template, request, json, Response,redirect,flash
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/book')
+def book():
+    return render_template('index.html')
